@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mytest.dir/main.cpp.o -o mytest  /usr/lib/x86_64-linux-gnu/libSDL2.so 
