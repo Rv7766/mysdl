@@ -9,8 +9,10 @@
 int main(int argc, char* argv[]){
 
     SDL_Window* window=nullptr;
+    int number_for_sdl_init_video;
+    number_for_sdl_init_video=SDL_Init(SDL_INIT_VIDEO);
 
-    if(SDL_Init(SDL_INIT_VIDEO) < 0){
+    if(number_for_sdl_init_video < 0){
         std::cout << "SDL could not be initialized: " <<
                   SDL_GetError();
     }else{
